@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  img{
+ height:500px;
+ width:500px;
+  }
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1{
+      margin:20px;
+      font-family:monospace;
+      font-size:20px;
+      text-align:justify;
+    }
+    body{
+      background-image:url("background2.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+    
+
+    .box{
+     background-color:rgba(0,0,0,0.9);
+      border:1px solid orange;
+      width:430px;
+      border-radius:20px;
+      color:aliceblue;
+    }
+    .cointainer{
+     
+      margin-top:50px;
+      display:flex;
+      justify-content:center;
+    }
+
+    input{
+      height:30px;
+      width:260px;
+      border-radius:10px;
+      text-align:center;
+      font-size:20px;
+      font-family:monospace;
+      margin:20px;
+      margin-top:60px;
+    }
+    button{
+      height:40px;
+      width:80px;
+      border:none;
+      border-radius:10px;
+      font-family:monospace;
+      background-color:#405DE6;
+      margin-top:20px;
+    }
+    h2{
+        font-family:monospace;
+        font-size:30px;
+        text-align:center;
+        color:gold;
+    }
+    
+
+    @media (max-width: 600px) {
+        body{
+        background-image:url("wp.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        }
+        h1 {
+            margin: 20px;
+            font-family: monospace;
+            font-size: 20px;
+            text-align: justify;
+          }
+        h2{
+            font-family:monospace;
+            font-size:32px;
+            text-align:center;
+        }
+        
+          .box {
+            background-color: rgba(0, 0, 0, 0.9);
+            border: 1px solid orange;
+            width: 90%;
+            max-width: 430px;
+            margin: 0 auto;
+            border-radius: 20px;
+            color: aliceblue;
+          }
+        
+          .container {
+            margin-top: 150px;
+            display: flex;
+            justify-content: center;
+          }
+        
+          input {
+            height: 30px;
+            width: 50%;
+            max-width: 260px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 20px;
+            font-family: monospace;
+            margin: 20px;
+            margin-top: 60px;
+          }
+        
+          button {
+            height: 40px;
+            width: 80px;
+            border: none;
+            border-radius: 10px;
+            font-family: monospace;
+            background-color: #405de6;
+            margin-top: 20px;
+          }
+    }
+      
+
+
+
+
+  </style>
+</head>
+<body>
+<div class="cointainer">
+<div class="box">
+    <h2>Dictinory</h2>
+  <input type="text" placeholder="word" id="input">
+  <button type="submit" onclick="output()">submit</button><br>
+  <h1 id="word"></h1>
+  
+  <h1 id="def"></h1>
+  <h1 id="ser"></h1><br>
+  <h1 id="ex"></h1>
+  <h1 id="sir"></h1><br>
+  <p id="demo"></p>
+  <h1 id="syn"></h1>
+  <h1 id="real_word"></h1>
+  <h1 id="ant"></h1>
+  <h1 id="real_word2"></h1>
+  <script src="pratic2.js"></script>
+</div>
+</div>
+</body>
+</html>
